@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class PolynomialRegression {
+public class PolynomialRegression_NormalEquation {
     public static final int ORDER = 3;
     private static double[][] getSubMatrix(double[][] matrix, int a, int b){
         int size = matrix.length, row, col;
